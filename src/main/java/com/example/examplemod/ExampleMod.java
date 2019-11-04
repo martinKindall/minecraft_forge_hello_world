@@ -42,4 +42,12 @@ public class ExampleMod
         // some example code
         logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
+
+    public static Item getMySword() {
+        if (mySword == null) {
+            throw new RuntimeException("ExampleMod: sword not initialized.");
+        }
+
+        return mySword;
+    }
 }
