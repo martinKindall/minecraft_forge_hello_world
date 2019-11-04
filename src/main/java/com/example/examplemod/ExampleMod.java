@@ -33,6 +33,7 @@ public class ExampleMod
                 100.0F,
                 30
         );
+
         mySword = new CustomSword(myToolMaterial);
     }
 
