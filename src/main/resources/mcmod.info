@@ -1,7 +1,7 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
+  "modid": "sword",
+  "name": "Mod de prueba",
   "description": "Example placeholder mod.",
   "version": "${version}",
   "mcversion": "${mcversion}",
