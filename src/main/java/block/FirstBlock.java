@@ -8,7 +8,7 @@ import net.minecraft.creativetab.CreativeTabs;
 public class FirstBlock extends Block {
     public FirstBlock() {
         super(Material.ROCK);
-        setCreativeTab(CreativeTabs.MISC);
+        setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
         setSoundType(SoundType.STONE);
     }
 }
