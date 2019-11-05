@@ -14,6 +14,7 @@ public class ModelRegistrationHandler {
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
         registerModel(ExampleMod.getMySword(), 0);
+        registerModel(ModItems.FIRST_ITEM, 0);
     }
 
     private static void registerModel(Item item, int meta) {
